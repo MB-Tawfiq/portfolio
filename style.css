@@ -1,8 +1,8 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0;
     margin: 0;
-    background: -o-linear-gradient(135deg, #ffec,rgba(0, 255, 76, 0.8),3b3e5fx);
+    background: -o-linear-gradient(135deg, #ffec,rgb(137, 187, 152),3b3e5fx);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-    background-color: darkblue;
+    background-color: rgba(0, 255, 157, 0.747);
     padding: 1rem 0;
     width: 100%;
     text-align: center;
@@ -22,15 +22,15 @@ nav {
 nav button {
    margin: 0 10 px;
    padding: 10px 20px;
-   background: rgba(13, 9, 173, 0.8);
-   color: aqua;
+   background: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
    border: none;
    border-radius: 5px;
    font-size: 1rem;
    cursor: pointer;
 }
 nav button:hover {
-    background: rgba(2, 174, 253, 0.8);
+    background: hsla(187, 73%, 45%, 0.98);
 }
 .main-content {
     margin-top: 100px;
@@ -49,11 +49,11 @@ nav button:hover {
     width: 500px;
     min-height: 250px;
     padding: 20px;
-    background-color:rgb(241, 11, 11);
-    color: rgb(0, 255, 200);
+    background-color:lch(73.86% 99.18 134.05);
+    color: hsl(180, 100%, 50%);
     font-size: 18px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgb(255, 115, 0);
+    box-shadow: 0 4px 6px #555353;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -72,13 +72,13 @@ ul li {
 }
 
 footer{
-    background-color: cadetblue;
+    background-color: rgb(188, 190, 12);
     padding: 10px 0;
     font-size: 0.9rem;
     text-align: center;
     width: 100%;
     position: fixed;
     bottom:0;
-    color: antiquewhite;
+    color: hsla(22, 100%, 37%, 0.992);
     z-index: 10dd;
 }
